@@ -1,0 +1,12 @@
+{
+  "model": "Logistic Regression",
+  "best_parameters": {
+    "model__C": 1.0
+  },
+  "cv_recall_after_tuning": 0.8013377926421403,
+  "test_accuracy": 0.7381121362668559,
+  "test_precision": 0.504302925989673,
+  "test_recall": 0.7834224598930482,
+  "test_f1": 0.6136125654450262,
+  "test_roc_auc": 0.8416388953473353
+}

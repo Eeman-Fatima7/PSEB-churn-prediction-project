@@ -1,0 +1,25 @@
+I built a Customer Churn Predictor as part of the PSEB Artificial Intelligence Bootcamp.
+
+The project uses the Telco Customer Churn dataset to explore why customers leave, compare machine learning models, and create a Streamlit app for retention teams.
+
+What I worked on:
+- Cleaned and explored 7,043 telecom customer records.
+- Analysed churn across contract type, tenure, monthly charges, and payment method.
+- Built preprocessing pipelines for numeric and categorical features.
+- Compared Logistic Regression, Decision Tree, and Random Forest using stratified cross-validation.
+- Tuned the selected model with recall as the primary metric, because identifying customers who may leave is important for retention.
+- Built a Streamlit interface that estimates churn risk and suggests follow-up actions.
+
+Test-set results for the selected Logistic Regression model:
+- Recall: 78.3%
+- Precision: 50.4%
+- F1-score: 0.614
+
+The analysis highlighted customer segments that deserve closer attention, including contract type, early tenure, and payment experience. These findings can help teams prioritise conversations, but predictions should support human judgement rather than replace it.
+
+Tools: Python, pandas, scikit-learn, Streamlit, GitHub, and Google Colab.
+
+GitHub: [add your repository link]
+Live app: [add your Streamlit app link]
+
+#MachineLearning #Python #DataScience #Streamlit #CustomerChurn #PSEB #AI
